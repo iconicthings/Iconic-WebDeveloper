@@ -1020,6 +1020,10 @@ if(emailLink){
 
 window.addEventListener('load', ()=> ScrollTrigger.refresh());
 window.addEventListener('resize', ()=> ScrollTrigger.refresh());
+
+/* ============ Vercel Analytics ============ */
+window.va = window.va || function () { (window.va.q = window.va.q || []).push(arguments); };
+window.va('set', 'developer', { name: 'Iconic Things', email: 'iconicthings121@gmail.com', uid: 'user_123' });
 </script>
 </body>
 </html>
